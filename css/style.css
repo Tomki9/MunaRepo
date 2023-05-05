@@ -1,42 +1,44 @@
-.logoSize{height: 50px;}
-.munapic{width: 1000px;height:auto;}
-.inline-block{display:inline-block;
-    vertical-align: top;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-ul li{display: inline;}
-.logo{
-    width: 23%
-    padding: 1%
-    ;}
-    nav{
-        width: 73%;
-        padding: 1%s;
-    }
-    .navclass{font-display: inline-block;position:absolute;right:0; text-align: right;}
+body{
+    background-color: black;
+    color: aliceblue;
+}
+.container{
+    max-width:960px;
+    margin: 0 auto;
+}
+h1{
+    margin: 50px 0;
+    text-align: center;
+    font-size: 50px;
+    text-transform: capitalize;
+}
+.accordion .accordion-item{
+    margin: 10px 0;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 8px #6e7a7a;
+}
+.accordion-titel{
+    background-color: #5daaaa;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.accordion-contant{
+    padding: 15px ;
+    background-color: rgba(55, 138, 159, 0.521);
+    display: none;
+}
+.accordion-titel h2  span{
+    float: right;
+}
 
-    div.navclass{width: 50%;text-align: right;margin-left: auto;}
-
-.navclass.inline-block {width: 50%;text-align: navright;margin-left: auto;}
-.inline-block ul{list-style:none;margin-left:auto;width:50%;text-align: rights;}
-.munapic{width: 70%;display: block;margin: auto;height: 600px;padding: 25px;}
-.p{width: 1000px;margin: auto0;}
-body{background-image : url (images/Munapicture.png)}
-  
-
-.footer{background: color #373737;padding:center;}
-footer ul{background-color: #373737;padding:centerss;}
-footer li{padding: center;}
-footer ul{display: inline-block;vertical-align: top;}
- /* does not work*/
-
- .munaImageHero{
-    height: 100vh;
-    width: auto;
-    background-image: url("../images/Munapicture.png");
-    background-repeat: no-repeat;
- }
-
- .transparent{
-    background-color: rgba(0, 0, 255, 0.034);
- }
-
+.copy-right{
+    font-size: 22px;
+    text-align: center;
+    margin: 50px 0;
+}
